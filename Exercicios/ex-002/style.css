@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body {
+    background-color: white;
+}
+
+div {
+    display: inline-block;
+    border: 1px solid black;
+    width: 200px;
+    vertical-align: top;
+}
+
+div:hover {
+    background-color: antiquewhite;
+}
+
+.evo {
+    height: 224px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: darkgrey;
+    outline: 5px;
+}
+
+.typef {
+    border-radius: 10px;
+    background-color: orange;
+    text-align: center;
+    margin: 10px;
+    list-style-type: none;
+}
+
+.typel {
+    border-radius: 10px;
+    background-color: red;
+    text-align: center;
+    list-style-type: none;
+    margin: 10px 10px 10px 10px;
+}
