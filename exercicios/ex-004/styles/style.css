@@ -30,7 +30,6 @@ header {
     text-align: center;
     background-color: black;
     color: white;
-    height: 325px;
 }
 
 header > h1 {
@@ -42,6 +41,7 @@ header > h1 {
 
 header > p {
     font-family: var(--fonte1);
+    padding-bottom: 30px;
 }
 
 header a {
@@ -55,9 +55,12 @@ header a:hover {
 }
 
 main .normal {
-    font-size: 3em;
     font-weight: bold;
     padding: 70px 40px ;
+}
+
+main p {
+    font-size: 3.5vw;
 }
 
 section {
@@ -67,6 +70,7 @@ section {
     padding-left: 30px;
     font-family: var(--fonte3);
     font-size: 3.5vw;
+    
 }
 
 main #img1 {
@@ -79,7 +83,7 @@ main #img1 {
 
 main .imagem {
     display: block;
-    font-size: 3em;
+    font-size: 3.5vw;
     font-weight: bold;
     padding: 70px 40px;
     color: white;
@@ -89,7 +93,8 @@ main .imagem {
 section.imagem > p {
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.527);
-    width: 650px;
+    display: inline-block;
+    padding: 10px;
 }
 
 main #img2 {
